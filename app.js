@@ -48,7 +48,7 @@ function start(){
     
     clientWha.on('message', async (msg) => {
 
-        if (msg.body.indexOf('id') != -1 || msg['_data']['id']['fromMe'] == true){
+        if (msg.body.indexOf('id') != -1){
             let chatId = msg['_data']['id']['remote'];
             clientWha.sendMessage(chatId, `id вашей руппы ${chatId}`);
         }
