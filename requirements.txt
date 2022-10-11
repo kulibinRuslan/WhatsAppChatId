@@ -3,10 +3,7 @@ npm config set PUPPETEER_PRODUCT=chrome
 npm i whatsapp-web.js qrcode-terminal
 npm i github:pedroslopez/whatsapp-web.js#fix-buttons-list
 
-run on linux:
-apt-cache search <name libriary>
-
 sudo apt-get install libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1
 
 run file 
-app.js
+node app.js
